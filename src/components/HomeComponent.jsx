@@ -21,9 +21,11 @@ class HomeComponent extends Component {
         if(!this.state.flag)
         return (
             <div>
-                <div style={{width:"440px",paddingTop:"60px",border:"1px solid black",margin:"auto",backgroundImage: "url(https://www.desktopbackground.org/download/540x960/2011/07/11/232812_plain-blue-backgrounds-wallpapers-wallpapers-cave_1920x1080_h.jpg)", backgroundSize: "cover",borderRadius: "35px",border:"0px",height: "900px"}}>
+                <div style={{width:"440px",paddingTop:"60px",border:"1px solid black",margin:"auto",
+                backgroundColor:"rgb(236 180 180)",
+                 backgroundSize: "cover",borderRadius: "35px",border:"0px",height: "900px"}}>
                         <div class="ggh">
-                            On Board
+                            DrawIt
                         </div>
 
                         <div id="quote">
