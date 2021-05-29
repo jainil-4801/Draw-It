@@ -1,0 +1,945 @@
+
+html,
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.ggh {
+    background: url('https://www.pngkit.com/png/full/20-204117_school-png-photos-green-school-board-png.png') no-repeat;
+    background-size: 100%;
+    /* width: 400px; */
+    height: 275px;
+    margin: auto;
+    line-height: 6;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    font-size: 40px;
+    margin-top: 20px;
+  
+}
+
+#join {
+  height: 53px;
+  width: 175px;
+  border-radius: 80px;
+  color: white;
+  margin-top: 20px;
+  line-height: 1;
+  background-color: rgba(22, 150, 35, 0.7);
+  font-size: 18px;
+  margin-top: 369px;
+}
+
+#quote {
+    font-family: 'Redressed', cursive;
+    position: absolute;
+    top: 56%;
+    color: white;
+    font-size: 32px;
+    padding: 9px;
+    text-align: center;
+    width: 440px;
+}
+
+button:hover {
+    box-shadow: 0 5px 5px 0 rgba(255, 255, 255, 0.5), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    outline: none;
+}
+
+
+
+.optionCamera {
+  width: 170px;
+  margin: auto;
+  background-color: rgb(202, 233, 246, 0.7);
+  /* outline: none; */
+  color: white;
+}
+
+
+
+html,
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#root:not(.withChat) {
+  display: block;
+  width: 100%;
+  height: 100%;
+
+}
+
+#root.withChat {
+  display: block;
+  grid-template-columns: 75% 25%;
+  /* height: 100%; */
+
+}
+
+
+/* video section */
+
+#video-devices{
+  display: block;
+    width: 40%;
+    margin: auto;
+    font-family: 'Open Sans', 'Helvetica Neue', 'Segoe UI', 'Calibri', 'Arial', sans-serif;
+    font-size: 18px;
+    color: #60666d;
+    outline: none;
+    position: relative;
+    top: 377px;
+    border-radius: 8px;
+    border:0px;
+    color:white;
+}
+
+.containers {
+  width: calc(100% - 5px);
+  height: 100%;
+  padding-right: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.final{
+  position: absolute;
+  width: 400px;
+  height: 31px;
+  background-color: #fafafa91;
+  top: 558px;
+  border-radius: 0 0 21px 21px;
+  color:white;
+}
+.speech{
+  position: absolute;
+  width: 400px;
+  height: 31px;
+  background-color: #fafafa91;
+  top: 558px;
+  border-radius: 0 0 21px 21px;
+  color:white;
+}
+
+.download{
+      color: white;
+    position: absolute;
+    top: 288px;
+    font-size: 27px;
+    cursor: pointer;
+    z-index: 10000;
+    width:51px;
+    height: 51px;
+    border-radius: 37px;
+    background-color: blue;
+}
+
+.participant {
+  margin-bottom: 10px;
+  margin-right: -6px;
+  display: grid;
+  grid-template-rows: auto 20px;
+}
+
+.participant div {
+  text-align: center;
+}
+
+.participant div video {
+  background-color: #eee;
+  border-radius: 20px;
+  outline:none;
+}
+
+.participant div video:not(.trackZoomed) {
+  width: 400px;
+  height: 308px;
+  border-radius: 20px;
+  outline:none;
+}
+
+
+video {
+  z-index: 0;
+  width: 414px !important;
+  height: 301px !important;
+  top: 412px;
+}
+
+.participant .label {
+  background-color: #ddd;
+  padding: 2px;
+}
+
+.participantZoomed {
+  width: 100%;
+  height: calc(100% - 5px);
+  grid-template-rows: auto 30px;
+}
+
+.participantHidden {
+  display: none;
+}
+
+.trackZoomed {
+  width: 100%;
+  height: 100%;
+}
+
+.participantZoomed div video:not(.trackZoomed) {
+  display: none;
+}
+
+.participantHidden div video {
+  display: none;
+}
+
+.participantHidden .label {
+  display: none;
+}
+
+.participantZoomed .label {
+  margin-top: 8px;
+}
+
+/* chat section */
+
+#root.withChat #chat {
+  width: auto;
+  display: block;
+  grid-template-rows: auto 0px;
+  border-left: 1px solid black;
+  padding: 5px;
+}
+
+#root:not(withChat) #chat {
+  display: none;
+}
+
+#chat #chat-scroll {
+  overflow: auto;
+}
+
+#chat #chat-scroll ::-webkit-scrollbar {
+  display: none;
+}
+
+#chat #chat-content {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 1em;
+  max-height: 1px;
+}
+
+.myImg {
+  z-index: 122;
+  width: 393px;
+  height: 300px;
+  position: absolute;
+  margin: auto;
+  opacity: 26.5;
+  left: 0%;
+  top: 0px;
+  border-radius: 32px;
+
+   
+}
+
+.join:hover {
+  box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0.5), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.join {
+  background: url('https://i.pinimg.com/originals/55/90/2f/55902f09ddd53c2d3783ad083eeca48b.jpg') no-repeat;
+  background-size: 100%;
+  width: 400px !important;
+  height: 300px !important;
+}
+
+button {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  line-height: 12;
+  outline: none;
+}
+
+.b1 {
+  background: url('https://cdn0.iconfinder.com/data/icons/kameleon-free-pack-rounded/110/Student-3-512.png') no-repeat;
+  background-size: 100%;
+  color: white;
+  outline: none;
+  padding:28px;
+
+}
+
+.b2 {
+  background: url('https://www.pngrepo.com/download/190758/teacher.png') no-repeat;
+  color: white;
+  outline: none;
+  background-size: 100%;
+}
+
+button:hover {
+  box-shadow: 0 5px 5px 0 rgba(255, 255, 255, 0.5), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+  outline: none;
+}
+
+
+
+#imageDiv {
+  top: 341px; 
+    /* left: 320px; */
+    z-index: 62;
+    position: absolute;
+    margin-top: -53px;
+    /* margin-bottom: 140px; */
+    /* background-color: navy; */
+    width: 401px;
+    height: 301px;
+   
+    /* color: black; */
+    border-radius: 26px;
+  }
+
+#somebuttons {
+  text-align: center;
+  /* margin-top: 48px; */
+  display: inline-flex;
+  width: 100%;
+  justify-content: center;
+  
+  }
+
+  #turn_over {
+      display: initial;
+
+  }
+  .ribbon{
+       font-size: 20px;
+    position: relative;
+    /* display: inline-block; */
+    /* margin: 5em; */
+    text-align: center;
+    z-index: 1;
+
+  }
+  .text{
+    display: inline-block;
+    padding: 0.5em 1em;
+    min-width: 12em;
+    line-height: 1.2em;
+    background: #FFD72A;
+    position: relative;
+  }
+  .ribbon:after,.ribbon:before,
+  .text:before,.text:after,
+  .bold:before{
+    content:'';
+    position:absolute;
+    border-style:solid;
+  }
+  .ribbon:before{
+    top: 0.3em;
+    /* left: 0.2em; */
+    /* width: 100%; */
+    height: 100%;
+    border: none;
+    background: #EBECED;
+    z-index: -24;
+  }
+  .text:before{
+    bottom:100%; left:0;
+    border-width: .5em .7em 0 0;
+    border-color: transparent #FC9544 transparent transparent;
+  }
+  .text:after{
+    top:100%; right:0;
+    border-width: .5em 2em 0 0;
+    border-color: #FC9544 transparent transparent transparent;
+  }
+  .ribbon:after, .bold:before{
+      top: 0.5em;
+      right: -4.3em;
+      border-width: 1.1em 1em 1.1em 3em;
+      border-color: #FECC30 transparent #FECC30 #FECC30;
+      z-index: -1;
+  }
+  .bold:before{
+    border-color: #EBECED transparent #EBECED #EBECED;
+    top:0.7em;
+    right:-2.3em;
+  }
+  
+
+  .btnallow{
+      background-color: rgba(37, 189, 52, 0.8);
+  height: 64px;
+  width: 68px;
+  border-radius: 78px;
+  color: white;
+  margin-top: 0px;
+  line-height: 1;
+  z-index: 989;
+  }
+
+  .btnturnover{
+      text-align:center; justify-content: center;width: 100%;display: inline-flex;
+  }
+  .turnoverbtn {
+    margin-top: 2px;
+    line-height: 2;
+    height: 64px;
+    width: 68px;
+    border-radius: 78px;
+    background-color: rgba(245, 121, 6, 0.9) !important;
+  
+  }
+
+@media only screen and (max-width: 1000px) {
+  #imageDiv {
+    width: 400px;
+    height: 302px;
+    margin: auto;
+    position: absolute;
+    margin-top: -53px;
+    opacity: 0.5;
+    z-index: 2;
+    border-radius: 20px;
+  }
+
+
+
+  #turn_over {
+      display: initial
+      ;
+
+  }
+  .btnallow{
+    ackground-color: rgba(37, 189, 52, 0.8);
+    height: 64px;
+    width: 68px;
+    border-radius: 78px;
+    color: white;
+    margin-top: 3px;
+    line-height: 1;
+    z-index: 10;
+    margin-left: 14px;
+   }
+ 
+}
+
+
+ .chatscrolls{
+  margin-bottom: 0px;
+  /* margin-left: 0px; */
+  height: 210px;
+  width: 389px;
+  /* border: 1px solid black; */
+  background-color: #bbeaff;
+  border-radius: 30px;
+  padding: 5px;
+  z-index: 2;
+  margin: auto;
+  }
+
+@media only screen and (max-width: 1000px) {
+  .chatscrolls{
+      transition: 2s ease-in-out;
+      border: 0px !important;
+      height: 210px;
+      border-radius: 40px;
+      left: -31% !important;
+      top: 64% !important;
+      width: 389px;
+      z-index: 2 !important;
+  
+  }
+
+  .chatinput{
+      margin-bottom: 10px;
+      width: 300px;
+      border-radius: 20px;
+      border: 0px;
+      outline: none;
+      height: 40px;
+  }
+
+  
+}
+
+.style1{
+    height: 20px;
+}
+.style2{
+    color: white;
+}
+.style3{
+    color: white; font-size: 20px;
+}
+.style4{
+    padding: 3px;
+}
+.style5{
+    margin-bottom: 30px; color:white;
+}
+.style6{
+   margin-right:20px;line-height: 12;
+}
+
+.style11{
+  height: 64px;
+  display: inline-flex;
+  z-index: 40;
+  margin-top: -10px;
+  width: 181px;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.style13{
+  height: 132px;
+  width: 100px;
+  /* display: inline-flex; */
+  z-index: 40;
+  margin-top: -189px;
+  width: 114px;
+  justify-content: center;
+  font-size: 24px;
+  position: absolute;
+
+}
+::-webkit-scrollbar {
+  width: 0;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
+#chat-content p{
+  color: #319ee2f0;
+    font-size: 20px;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: #ffffffe0;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 16px;
+
+}
+#chat-content b{
+  color:rgb(57, 12, 221);
+}
+.style14{
+  width: fit-content;
+    justify-content: center;
+    text-align: center;
+    margin: auto; 
+}
+.style7{
+
+  display: inline-flex;
+}
+.style8{
+   line-height: 16;
+}
+.style9{
+    display: none;
+}
+.style10{
+    top: 72%;
+    right: 33%;
+}
+
+
+.labelFor{
+  background-color:rgb(202,233,246,0.4);  height: auto;
+  width: fit-content;
+  margin: auto;
+  border-radius: 19px;
+  height: 37px;
+  padding: 10px;
+  display: inline-flex;
+}
+.maindiv{
+    width:440px;border:1px solid black;margin:auto;background-image: url(https://www.desktopbackground.org/download/540x960/2011/07/11/232812_plain-blue-backgrounds-wallpapers-wallpapers-cave_1920x1080_h.jpg); background-size: cover;border-radius: 35px;border:0px;height: 900px;
+}
+
+.titlefor{
+    height: 50px;width: 300px;background-color:rgb(202,233,246,0.4); border-radius: 20px;align-items: center;justify-content: center;text-align: center;margin:auto;margin-bottom: 20px;
+}
+
+.headingfor{
+    color:white;padding-top:4px; font-family:Great Vibes, cursive;font-size: 25px !important;
+}
+
+.formfor{
+    border:1px solid black;display: block;height: auto;width:420px;justify-content: center;text-align: center;border:0px;margin:auto
+}
+.namefield{
+    margin-bottom: 4px;text-align: center;width: 100%;justify-content: center;
+}
+
+.nameinput{
+    padding-left: 2px; margin:auto;margin-bottom: 10px;width:330px;border-radius: 20px;height: 35px;background-color: rgba(202,233,246,0.7);border: 0px; text-align: center;
+}
+
+.inputfield{
+    width:300px !important;border-radius: 20px !important;height: 35px !important;background-color: transparent !important;border: 0px !important; text-align: center !important;outline:none;
+}
+.roomcode{
+    margin-bottom: 4px;text-align: center;width: 100%;justify-content: center;
+}
+.iconfor{
+    margin:auto;margin-bottom: 10px;width:330px;border-radius: 20px;height: 35px;background-color: rgba(202,233,246,0.7);border: 0px; text-align: center;
+}
+.inputfield2{
+    width:300px !important;border-radius: 20px !important;height: 35px !important;background-color: transparent !important;border: 0px !important; text-align: center !important;outline:none;
+}
+#statusfield{
+    margin-top: 43px;
+    margin-left:auto;
+    margin-right: auto;
+    width:200px;
+    justify-content: center;
+    text-align: center;
+    background-color:rgb(255, 81, 0,0.5) ;
+    border-radius: 30px;
+    border:0px;
+    height: 30px;
+    margin-bottom:15px;
+    display: inline-flex;
+}
+#statusfieldConnected{
+  margin-top: 43px;
+  margin-left:auto;
+  margin-right: auto;
+  width:200px;
+  justify-content: center;
+  text-align: center;
+  background-color:rgba(13, 240, 32, 0.5) ;
+  border-radius: 30px;
+  border:0px;
+  height: 30px;
+  margin-bottom:15px;
+  display: inline-flex;
+
+}
+.joinfield{
+    width:300px;
+    height:225px;
+     border:1px solid white;
+     margin:auto !important;
+     margin-top:120px !important;
+     justify-content:center !important;
+     text-align:center !important;
+     border-radius:20px !important;
+     margin-bottom:50px;
+     background: url('https://i.pinimg.com/originals/55/90/2f/55902f09ddd53c2d3783ad083eeca48b.jpg') no-repeat;
+     background-size: 100%;
+     width: 400px !important;
+     height: 300px !important;
+}
+.asfield{
+    margin:auto;align-items:center;color:white;margin-bottom:35px;margin-top:20px;font-size:25px;line-height: 2;
+}
+.btnsharescreen{
+    color:white;width:100px;height: 30px;background-color: rgb(202,233,246,0.4);border-radius: 20px;border:1px;line-height:1
+}
+.btntogglechat{
+    color:white;width:100px;height: 30px;background-color: rgb(202,233,246,0.4);border-radius: 20px;border:1px;line-height:1
+}
+.btnleave{
+    color:white;
+    width:100px;
+    height: 30px;
+    background-color: rgb(202,233,246,0.4);
+    border-radius: 20px;
+    border:1px;
+    line-height:1;
+}
+.cameradiv{
+    text-align:center; margin-top:15px;justify-content: center;text-align: center;width: 100%; width: 100%;display:inline-flex;
+}
+.containeradd{
+    border:1px solid black; 
+      height: 300px;width:400px;margin: 20px 21px;
+      background-color:rgb(202,231,246,0.5) ;
+       border-radius: 25px;border:0px;
+}
+.vids{
+    width: 400px; height:308px; 
+              margin:auto;
+}
+.rootlabel{
+    margin-left:25%; 
+              width:200px;
+              height:30px;
+              font-size:20px;
+              background-color:rgba(202,233,246,0.0) !important;
+              color:white;
+              
+}
+.btngr{
+  
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  margin-top: 49px;
+}
+.btnaskdoubt{
+    margin:10px;
+    background-color: rgba(22, 150, 35, 0.5);height: 68px;border-radius:114px ;color:white;margin-top: 20px;
+    width: 71px;
+          line-height:1;
+          
+
+}
+.canvasstyle{
+    position: absolute;left: auto; height: 0px
+}
+.btncapture{
+    margin:10px;
+    background-color: rgba(235, 13, 13, 0.8);height: 68px;border-radius:114px ;color:white;margin-top: 20px;
+    width: 71px;
+          line-height:1
+}
+.btnclearscreen{
+    background-color: rgba(22, 150, 35, 0.5);height: 68px;border-radius:114px ;color:white;margin-top: 20px;
+    width: 71px;
+          line-height:1
+}
+.chatstyle{
+    transition: 7s ease-in-out;
+    border: 0px !important;
+    height: auto !important;
+    border-radius: 40px;
+    /* position: absolute; */
+    /* left: 37% !important; */
+    /* top: 85% !important; */
+    width: auto !important;
+    z-index: 2 !important;
+}
+
+.chatin{
+    margin:auto;text-align: center;height: 22px;border:0px;z-index: 3;
+}
+.chatinput{
+    margin-bottom: 10px;width:300px;border-radius: 20px;border:0px ;margin-top:-41px;outline:none;height: 40px;
+}
+
+
+
+.btncapture .tooltiptext {
+visibility: hidden;
+width: 120px;
+background-color: black;
+color: #fff;
+text-align: center;
+border-radius: 6px;
+padding: 3px 0;
+border:0px;
+
+/* Position the tooltip */
+position: absolute;
+z-index: 1;
+}
+
+.btncapture:hover .tooltiptext {
+visibility: visible;
+}
+
+
+.btnclearscreen .tooltiptext {
+visibility: hidden;
+width: 120px;
+background-color: black;
+color: #fff;
+text-align: center;
+border-radius: 6px;
+padding: 3px 0;
+border:0px;
+
+/* Position the tooltip */
+position: absolute;
+z-index: 1;
+}
+
+.btnclearscreen:hover .tooltiptext {
+visibility: visible;
+}
+
+.btnturnover .tooltiptext {
+visibility: hidden;
+width: 120px;
+background-color: black;
+color: #fff;
+text-align: center;
+border-radius: 6px;
+padding: 3px 0;
+border:0px;
+
+/* Position the tooltip */
+position: absolute;
+z-index: 1;
+}
+
+.btnturnover:hover .tooltiptext {
+/* visibility: visible; */
+}
+.btnaskdoubt .tooltiptext {
+visibility: hidden;
+width: 120px;
+background-color: black;
+color: #fff;
+text-align: center;
+border-radius: 6px;
+padding: 3px 0;
+border:0px;
+
+/* Position the tooltip */
+position: absolute;
+z-index: 1;
+}
+
+.btnaskdoubt:hover .tooltiptext {
+visibility: visible;
+}
+.btnsharescreen .tooltiptext {
+  visibility: hidden;
+width: 120px;
+background-color: black;
+color: #fff;
+text-align: center;
+border-radius: 6px;
+padding: 3px 0;
+border:0px;
+
+/* Position the tooltip */
+position: absolute;
+z-index: 1;
+}
+
+.btnsharescreen:hover .tooltiptext {
+visibility: visible;
+}
+.btntogglechat .tooltiptext {
+visibility: hidden;
+width: 120px;
+background-color: black;
+color: #fff;
+text-align: center;
+border-radius: 6px;
+padding: 3px 0;
+border:0px;
+
+/* Position the tooltip */
+position: absolute;
+z-index: 1;
+}
+
+#video{
+  border-radius: 24px;
+  outline: none;
+  border: 0px;}
+
+.btntogglechat:hover .tooltiptext {
+visibility: visible;
+}
+.btnleave .tooltiptext {
+visibility: hidden;
+width: 120px;
+background-color: black;
+color: #fff;
+text-align: center;
+border-radius: 6px;
+padding: 3px 0;
+border:0px;
+
+/* Position the tooltip */
+position: absolute;
+z-index: 1;
+}
+
+.btnleave:hover .tooltiptext {
+visibility: visible;
+}
+
+.btnallow .tooltiptext {
+visibility: hidden;
+width: 120px;
+background-color: black;
+color: #fff;
+text-align: center;
+border-radius: 6px;
+padding: 3px 0;
+border:0px;
+
+/* Position the tooltip */
+position: absolute;
+z-index: 1;
+}
+
+.btnallow:hover .tooltiptext {
+visibility: visible;
+}
+
+#statusicon{
+  padding:2px;
+}
+
+
+@media only screen and (max-width: 1000px) {
+  .maindiv{
+    width: 450px im !important;
+    border: 1px solid black;
+    margin: auto;
+    background-image: url(https://www.desktopbackground.org/download/540x960/2011/07/11/232812_plain-blue-backgrounds-wallpapers-wallpapers-cave_1920x1080_h.jpg);
+    background-size: cover;
+    border-radius: 35px;
+    border: 0px;
+    height: 900px;
+  }
+    .ggh {
+        background: url('https://www.pngkit.com/png/full/20-204117_school-png-photos-green-school-board-png.png') no-repeat;
+        background-size: 100%;
+        width: 400px;
+        height: 400px;
+        margin: auto;
+        line-height: 6;
+        color: white;
+        text-align: center;
+        font-weight: 500;
+        font-size: 40px;
+        margin-top: 20px;
+    }
+
+    #join {
+      height: 50px;
+      border-radius: 80px;
+      color: white;
+      margin-top: 227px;
+      line-height: 1;
+      background-color: rgba(22, 150, 35, 0.7);
+      font-size: 18px;
+    }
+
+    #quote {
+      ont-family: 'Redressed', cursive;
+      /* position: absolute; */
+      /* top: 47%; */
+      color: white;
+      font-size: 32px;
+      padding: 9px;
+      text-align: center;
+      width: 440px;
+      margin-top: 40px;
+    }
+}
