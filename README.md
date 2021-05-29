@@ -1,5 +1,19 @@
 <div align="center" ><h1> Draw-It </h1></div>
-# Frontend React App 
+
+## Problem Statement: 
+
+
+Ever since the start of pandemic,education has seen a gradual fallback from classroom studies to online sessions over video meets and screen sharings.The fallback was worst on quality front, where students were being taught through passing slides.With each passing slide, what was taught and what wasn't taught became equally same. Being a part of this roll over, it inspired us to do something innovative.There was a strict need of elevating Online Education through drawing and discussing doubts which could not be more easily done then on a mobile phone.urban students have access to Tablets , where they can easily communicate their problems to the teacher through JamBoards and teachers can also solve their problems. The major drawback is for rural area students, where it gets difficult for them to understand the content as it is always a one-way communication. Elementary school students, who are being taught alphabets ,words and numbers can never learn them unless they imitate them side by side with the mentor over there copies. Similarly a mentor can never get a positive feedback of how much his students are learning unless he sees there work in real time.This brings us to the idea we named : DRAWIT.
+Same is the case with high school students,though they can learn on their own, a teacher never comes to know if his student is able to write the next step along with him in a question unless the student writes it and shows it to him in real time. In all these scenarios , DRAWIT proves to be a big weapon of help.
+
+
+
+## The workflow of our project:
+
+It's a basic student-mentor deployed system. The mentor creates a room where students can join and mentor can share his screen.The mentor then clicks the capture button on the application and a snapshot of the present screen is taken and the background is removed (through OpenCV processing). Then this image is imprinted on the ongoing video stream of the mentor as well as all the students in the room. Then, if any student has a doubt in any step or wants to draw anything on his/her notebook and to share with the mentor, the capture button is clicked on the student side and the same process happens again. This will work turn by turn and a blackboard chat system is formed.
+
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -87,7 +101,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ```sh
 cd INSTALLATION_PATH 
 ```
-4.  Clone this repository `https://github.com/aditalware/hackNitr2.git`
+4.  Clone this repository `https://github.com/jainil-4801/Draw-It.git`
 or u can download and extact the zip file.
 
 
