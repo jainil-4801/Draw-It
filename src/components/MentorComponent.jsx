@@ -6,7 +6,7 @@ import { connect } from 'react-redux';
 import { withRouter } from 'react-router-dom';
 import {Login} from '../Redux/ActionCreators/generalActions';
 import { PostRequestApi} from '../utils/apiutils';
-import {Loading} from './LoadingComponent';
+import {Loading} from './Loading';
 import {conv,now_streaming,recent_message} from '../utils/connectionFunctions';
 import SpeechRecognition, { useSpeechRecognition } from 'react-speech-recognition'
 
@@ -51,7 +51,7 @@ import SpeechRecognition, { useSpeechRecognition } from 'react-speech-recognitio
         <div className="maindiv">
 
                                <div className="head titlefor">
-                                    <h1 className="headingfor">OnBoard</h1>
+                                    <h1 className="headingfor">DrawIt</h1>
                                 </div>
                                   <div className="labelFor">
 

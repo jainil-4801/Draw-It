@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import { withRouter } from 'react-router-dom';
 import {Login} from '../Redux/ActionCreators/generalActions';
 import { PostRequestApi} from '../utils/apiutils';
-import {Loading} from './LoadingComponent';
+import {Loading} from './Loading';
 import Mentor from './MentorComponent';
 import Student from './StudentComponent';
 import {onStart,assignMentor,assignStudent,toggleChatHandler,capture1,conv,onChatInputKey,now_streaming,recent_message,mentor} from '../utils/connectionFunctions';
@@ -87,7 +87,7 @@ class UserEnterComponent extends Component {
             return (
                 <div className="maindiv" >
                                 <div className="head titlefor">
-                                    <h1 className="headingfor">Draw-It</h1>
+                                    <h1 className="headingfor">DrawIt</h1>
                                 </div>
 
                                         <form className="formstyle formfor" onSubmit={this.handleSubmit}>
@@ -132,6 +132,24 @@ class UserEnterComponent extends Component {
       </div >
         )
 }
+    else if(this.state.mentor){
+        return(
+            <Mentor
+            name={this.state.name}
+            load={this.state.load}
+            imageload={this.state.imageload}
+            localDiv={this.state.localDiv}
+            toggleChatHandler={toggleChatHandler}
+            capture1={capture1}
+            conv={conv}
+            onChatInputKey={onChatInputKey}
+            mentor={mentor}
+            recent_message={recent_message}
+            setImageLoading={this.setImageLoading}
+
+            />
+        )}
+
 
     else if(this.state.student){
         return(

@@ -3,7 +3,7 @@ import {Switch,Route,Redirect,withRouter} from 'react-router-dom';
 import HomeComponent from './HomeComponent';
 import UserEnterComponent from './UserEnterComponent';
 import { connect } from 'react-redux';
-import {Loading} from './LoadingComponent';
+import {Loading} from './Loading';
 
 const mapStateToProps =(state)=>({
     token: state.generalReducer.token,
