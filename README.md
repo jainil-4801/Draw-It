@@ -129,22 +129,8 @@ python app.py
 ```sh
 ngrok http 5000
 ```
-
-## Working
-
-There is a mentor which starts the server and creates a public URL for it. This URL is shared among the students, and the students join. The public URL works as a room where all participants can see the screen of mentor. As an example, in the below section of snapshots, the first image shows the screen of mentor. The mentor then clicks the capture button on the application. A snapshot of present screen is taken and the background is removed. Then this image is imprinted on the on going video stream of mentor, which is visible to all. Then, if any student have a doubt in any step or want to draw anything on his/her notebook and share with the mentor, the capture button is clicked on the student side and same process happens again. 
-
-
-
-
 ## Team Members
 
 * Jainil Shah 
 * Abhinav Gupta 
 * Adit Alware 
-
-
-## Snapshots of our prototype
-
-<img src="prototype/prototype1.jpeg" width="150" height="300">&emsp;  &emsp; <img src="prototype/prototype2.jpeg" width="150" height="300"> &emsp;  &emsp; <img src="prototype/prototype3.jpeg" width="150" height="300">&emsp;  &emsp; <img src="prototype/prototype4.jpeg" width="150" height="300">&emsp;  &emsp; <img src="prototype/prototype5.jpeg" width="150" height="300">
-
