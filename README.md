@@ -1,4 +1,3 @@
-# hackNitr2
 <div align="center" ><h1> Draw-It </h1></div>
 # Frontend React App 
 
